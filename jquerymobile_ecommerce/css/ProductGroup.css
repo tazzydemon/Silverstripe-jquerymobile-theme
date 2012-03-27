@@ -1,0 +1,65 @@
+#ProductGroup
+{
+}
+#ProductGroup #Breadcrumbs
+{
+	display: none;
+}
+.category
+{
+	overflow-x: hidden;
+}
+.sortOptions .current
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+.productList
+{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+/*3) Product Settings*/
+.productItem
+{
+	list-style: none;
+	float: left;
+	width: 140px;
+	min-height: 330px;
+	margin: 0 5px 5px 0;
+	padding: 5px;
+}
+.productItem .productActions
+{
+	padding: 0;
+	margin: 0;
+}
+.productItem .productActions LI
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.resultsBar .resultsShowing, .resultsBar .resultsShowing
+{
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.resultsBar
+{
+	display: none;
+}
+/*Image placeholder*/
+.productItem A.noimage
+{
+	padding: 20px;
+	height: 60px;
+	text-align: center;
+	background: #EEEEEE;
+	color: #D3D3D3;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+}

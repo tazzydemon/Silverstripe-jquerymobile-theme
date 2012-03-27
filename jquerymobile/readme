@@ -1,0 +1,19 @@
+This is a modified version of the theme that comes with the regular silverstripe-mobile module
+
+This is a base theme only and you should change the jquery and jquerymin.css for your own by visiting http://jquerymobile.com/themeroller/
+
+Extensive use is made of the data-rel tag to ensure that the query mobile knows where deeply nested links are.
+
+You might find it necessary (it certainly was before the data-rel mods) to put this in your page.php (top part) to ensure that image links are root relative.
+
+    protected function onBeforeWrite() {
+        parent::onBeforeWrite();
+        $this->Content = str_replace(' src="assets/', ' src="/assets/', $this->Content);
+
+        
+    }
+Try to put your normal css calls in the regular template to stop them being called as well
+
+I am thinking of added a test for mobile in page.php to make things happen sooner and control requirements better
+
+Dont forget to add a switch back from your regular template by using a test in the silverstripe-mobile module

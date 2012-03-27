@@ -1,0 +1,182 @@
+/*
+* AccountPage stylesheet
+* Styling of past orders and the member form (if required) here
+
+
+* Past orders div containing the order history styling
+
+create a box floated to the right*/
+#PastOrders
+{
+	float: right;
+	width: 45%;
+}
+/*
+* Member form styling, and tweaks to the login form as well
+ */
+#ShopAccountForm_MemberForm
+{
+	width: 300px;
+	padding: 20px;
+	border: 1px solid #808080;
+}
+#ShopAccountForm_MemberForm FIELDSET
+{
+	border: 0px solid #000000;
+}
+#ShopAccountForm_MemberForm INPUT
+{
+	margin: 0px 0px 5px;
+    width:140px;
+}
+/*these labels don't have a bold font weight, so apply it*/
+#ShopAccountForm_MemberForm LABEL.left, #LoginForm_LoginForm LABEL.left
+{
+	font-weight: bold;
+	float: left;
+	width: 110px;
+}
+/*country select dropdown width is wrong, so reapply it*/
+#ShopAccountForm_MemberForm #Country SELECT
+{
+	width: 305px;
+}
+#PrintPageIcon IMG
+{
+	cursor: pointer;
+}
+/*Information table styling*/
+#InformationTable
+{
+	width: 100%;
+	background: #FDFDFD;
+	margin: 0 auto 20px;
+}
+/*Cells main styling*/
+#InformationTable TH, #InformationTable TD
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+#InformationTable TH
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4EA3D7 !important;
+}
+/*Cells alignment styling*/
+#InformationTable .title
+{
+	text-align: left;
+}
+#InformationTable .quantity
+{
+	text-align: center;
+}
+#InformationTable .unitprice, #InformationTable .total
+{
+	text-align: right;
+}
+/*Lines and cells special styling for subtotal and total*/
+#InformationTable TR.ordertotal, #InformationTable TR.ordersubtotal
+{
+	background: #C9EBFF;
+	text-transform: uppercase;
+}
+#InformationTable TR.ordertotal TD, #InformationTable TR.ordersubtotal TD
+{
+	font-weight: bold;
+}
+#InformationTable TR.ordersubtotal TD
+{
+	font-size: 1.1em;
+}
+#InformationTable TR.ordertotal TD
+{
+	font-size: 1.2em;
+}
+#InformationTable TR TD.transparent
+{
+	background: #CCC;
+/*border-left:none;
+border-right:none;*/
+	border: none;
+}
+.warningMessage
+{
+	margin: 4px 0 0 3px;
+	padding: 5px;
+	width: 92%;
+	color: #DC1313;
+	border: 4px solid #FF7373;
+	background: #FED0D0;
+}
+/*Shipping table styling*/
+#ShippingTable
+{
+	width: 100%;
+	background: #FDFDFD;
+	margin: 0 auto 20px;
+}
+/*Cells main styling*/
+#ShippingTable TH, #ShippingTable TD
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+#ShippingTable TH
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4EA3D7 !important;
+}
+/*PAyment table styling*/
+#PaymentTable
+{
+	width: 100%;
+	background: #FDFDFD;
+	margin: 0 auto 20px;
+}
+/*Cells main styling*/
+#PaymentTable TH, #PaymentTable TD
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+#PaymentTable TH
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4EA3D7 !important;
+}
+/*Outstanding table styling*/
+#OutstandingTable
+{
+	width: 100%;
+	background: #FDFDFD;
+	margin: 0 auto;
+}
+/*Cells main styling*/
+#OutstandingTable TH, #OutstandingTable TD
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+#OutstandingTable TH
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4EA3D7 !important;
+}

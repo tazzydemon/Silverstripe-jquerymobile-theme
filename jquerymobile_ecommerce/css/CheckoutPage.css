@@ -1,0 +1,284 @@
+/*
+* CheckoutPage stylesheet.
+* This is all the styles associated with the checkout page such as the order
+* information table, and the order form/
+
+Information table styling*/
+#InformationTable
+{
+	width: 100%;
+	background: #FDFDFD;
+	margin: 0 auto;
+}
+/*Cells main styling*/
+#InformationTable TH, #InformationTable TD
+{
+	font-size: 1em;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+#InformationTable TH
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4EA3D7 !important;
+}
+/*Cells alignment styling*/
+#InformationTable .title
+{
+	text-align: left;
+}
+#InformationTable .quantity
+{
+	text-align: center;
+}
+#InformationTable .unitprice, #InformationTable .total
+{
+	text-align: right;
+}
+/*Lines and cells special styling for subtotal and total*/
+#InformationTable TR.ordertotal, #InformationTable TR.ordersubtotal
+{
+	background: #C9EBFF;
+	text-transform: uppercase;
+}
+#InformationTable TR.ordertotal TD, #InformationTable TR.ordersubtotal TD
+{
+	font-weight: bold;
+}
+#InformationTable TR.ordersubtotal TD
+{
+	font-size: 1.1em;
+}
+#InformationTable TR.ordertotal TD
+{
+	font-size: 1.2em;
+}
+#InformationTable TR TD.transparent
+{
+	background: #CCC;
+/*border-left:none;
+border-right:none;*/
+	border: none;
+}
+.warningMessage
+{
+	margin: 4px 0 0 3px;
+	padding: 5px;
+	width: 92%;
+	color: #DC1313;
+	border: 4px solid #FF7373;
+	background: #FED0D0;
+}
+/*CheckoutPage form styling*/
+#LeftOrder, #RightOrder
+{
+	float: left;
+}
+#LeftOrder
+{
+	width: 300px;
+	padding-right: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+#RightOrder
+{
+	width: 360px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#BottomOrder
+{
+	clear: both;
+}
+#Checkout FORM DIV
+{
+	margin-bottom: 10px;
+}
+#Checkout FORM .action
+{
+	margin: 10px;
+	padding: 5px;
+}
+#Checkout A
+{
+	text-decoration: none;
+	color: #3E91C4;
+}
+#Checkout A:hover
+{
+	text-decoration: underline;
+}
+#Checkout H3
+{
+	color: #4EA3D7;
+	font-size: 1.4em;
+	padding-bottom: 5px;
+	font-weight: normal;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+#Checkout FORM H3
+{
+	margin: 20px 0;
+	border-bottom: 1px solid #CCC;
+}
+#Checkout FORM LABEL.right
+{
+	font-size: 1em;
+}
+#Checkout FORM #UseShippingAddress
+{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#Checkout FORM #Country .fieldgroup LABEL
+{
+	display: none;
+}
+#Checkout FORM #Amount
+{
+	font-weight: bold;
+}
+/*
+#Checkout form label,
+#Checkout form select,
+#Checkout form span.readonly {
+font-size:1.2em;
+}
+*/
+#Checkout FORM LABEL.left
+{
+	float: left;
+	width: 150px;
+	font-weight: bold;
+}
+/*
+#Checkout form input.text,
+#Checkout form select {
+width:250px;
+font-size:1.2em;
+}
+*/
+#Checkout FORM INPUT.maxlength
+{
+	width: inherit;
+}
+/*
+#Checkout form input.nolabel {
+margin-left:150px;
+}
+*/
+#Checkout FORM DIV.readonly
+{
+	padding: 1em;
+/*font-size:1.2em;*/
+	border: 1px solid #DDD;
+	background: #F9F9F9;
+}
+#Checkout FORM #PaymentMethod .middleColumn
+{
+	background: none;
+	width: auto;
+}
+#Checkout FORM #MethodFields_DPSPayment
+{
+	width: 315px;
+}
+#Checkout FORM #MethodFields_DPSPayment .middleColumn
+{
+	background: none;
+	margin: 0;
+}
+#Checkout #MethodFields_DPSPayment LABEL.left
+{
+	float: none;
+/*display: none;*/
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#Checkout #MethodFields_DPSPayment INPUT
+{
+	width: 35px;
+}
+#Checkout #MethodFields_DPSPayment INPUT.text
+{
+	width: 145px;
+}
+/*override the width for the expiry date*/
+#Checkout #MethodFields_DPSPayment INPUT.text.maxlength
+{
+	width: 37px !important;
+}
+#Checkout UL.optionset
+{
+	clear: both;
+	padding-bottom: 20px;
+	list-style-type: none;
+}
+#Checkout UL.optionset LABEL.left
+{
+	float: left;
+	line-height: 1.5em;
+}
+#Checkout UL.optionset LI
+{
+	float: left;
+}
+#Checkout UL.optionset LI LABEL
+{
+	margin-right: 10px;
+}
+#Checkout .Actions
+{
+	text-align: right;
+}
+#Checkout #ReadConditions
+{
+	background: #E9E9E9;
+	padding: 10px;
+}
+/*Process styles at the top of checkout*/
+#Checkout H3.process
+{
+	margin-bottom: 1em;
+	line-height: 2em;
+	color: #CCC;
+}
+#Checkout H3.process SPAN
+{
+	color: #000;
+}
+#Checkout H3.process SPAN.current
+{
+	background: #EEE;
+	padding: 5px;
+}
+#Checkout H3.process A
+{
+	color: #4EA3D7;
+	text-decoration: none;
+}
+#Checkout H3.process A:hover
+{
+	text-decoration: underline;
+}
+.message.required
+{
+	color: #B15009;
+	margin: 0px 40px 0px 20px;
+	font: italic bold 1em Arial, helvetica, sans-serif;
+	display: block;
+	border: 1px solid #F7C291;
+	background-color: #FDDCBE;
+	padding: 5px;
+}
+.message
+{
+	font: italic bold 1em Arial, helvetica, sans-serif;
+	color: #DC7312;
+}

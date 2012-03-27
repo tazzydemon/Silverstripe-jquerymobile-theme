@@ -1,0 +1,64 @@
+UL.gallery-layout
+{
+	margin: 0;
+	padding: 0px;
+}
+.gallery-layout LI
+{
+	float: left;
+	padding: 10px;
+	list-style: none;
+	margin: 2px;
+	border: 1px solid #C0C0C0;
+	height: 475px;
+    width: 310px;
+    overflow: hidden;
+	font-size: 12px;
+}
+.gallery-layout LI:hover
+{
+	background: #DDD;
+}
+.gallery-layout:after
+{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+.gallery-layout
+{
+	zoom: 1;
+}
+.gallery-layout
+{
+	background: url('../images/ajax-loader-lg.gif') no-repeat center;
+}
+.gallery-layout.loaded
+{
+	background: none;
+}
+.gallery-layout LI H3
+{
+	font-size: 14px;
+	line-height: 14px;
+	margin: 0px 0px 5px;
+	padding: 0px;
+}
+.gallery-layout LI A
+{
+	/*[disabled]visibility:hidden;*/
+}
+.gallery-layout.loaded LI A
+{
+	visibility: visible;
+}
+.gallery-layout LI IMG
+{
+	padding: 0px;
+	margin: 0px;
+	height: 440px;
+	max-height: 440px;
+	overflow: hidden;
+}

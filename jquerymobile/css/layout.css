@@ -1,0 +1,59 @@
+/*Sets default font size to 10px*/
+H4.ui-title A.ui-link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+H4.ui-title A.ui-link:hover
+{
+	color: #FFE665;
+}
+#fullSiteLink A
+{
+	float: right;
+	padding: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+H1
+{
+	font-size: 1.5em;
+}
+H2
+{
+	font-size: 1.2em;
+}
+H3
+{
+	font-size: 1.1em;
+}
+#ShoppingCart LI
+{
+	list-style-type: none;
+}
+#ShoppingCart UL
+{
+	padding-left: 0px;
+}
+#ShoppingCart .ecomquantityfield
+{
+	display: inline-block;
+	text-align: center;
+}
+#ShoppingCart .title
+{
+	display: block;
+}
+#ShoppingCart .price
+{
+	display: block;
+}
+INPUT.ajaxQuantityField
+{
+	width: auto;
+}
+#ShoppingCart .quantitylabel
+{
+	display: block;
+	float: left;
+}

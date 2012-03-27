@@ -1,0 +1,89 @@
+#Product
+{
+	/*[disabled]margin-left:230px;*/
+}
+.priceDisplay
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+/*Image placeholder*/
+#Product .noimage
+{
+	padding: 20px;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	background: #EEEEEE;
+	color: #D3D3D3;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+}
+/*from old css*/
+.productDetails
+{
+	width: 220px;
+	float: left;
+	color: #666;
+	overflow: hidden;
+	margin: 0px 10px 20px 0px;
+}
+.price_display
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.featured, .quantityBox
+{
+	border: 1px solid #666;
+	padding: 5px;
+	background: #FAFAFA;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	font-size: 0.9em;
+	background-color: #EEE;
+	border: 1px solid #C8C6C6;
+}
+.featured
+{
+}
+.quantityBox A
+{
+	vertical-align: middle;
+}
+.quantityBox A:hover
+{
+	text-decoration: none !important;
+}
+.productActions
+{
+	margin-top: 10px;
+	margin: 0 !important;
+	padding: 0;
+}
+.productActions LI
+{
+	/*[disabled]text-align:right;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.quantityBox .productActions A
+{
+	line-height: 1.5em;
+	font-weight: normal;
+}
+FORM#options LABEL
+{
+	font-size: 10px;
+}
+FORM#options FIELDSET INPUT#Quantity
+{
+	width: 30px;
+}
+.productContent
+{
+	/*[disabled]width:300px;*/
+}
